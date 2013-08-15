@@ -6,6 +6,7 @@
 
 # Ignore bundler config.
 /.bundle
+/app/models/user_password_constants.rb
 
 # Ignore the default SQLite database.
 /db/*.sqlite3

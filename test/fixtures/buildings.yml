@@ -1,0 +1,34 @@
+# == Schema Information
+#
+# Table name: buildings
+#
+#  id         :integer          not null, primary key
+#  wood       :integer
+#  clay       :integer
+#  iron       :integer
+#  crop       :integer
+#  clocks     :time
+#  created_at :datetime
+#  updated_at :datetime
+#  name       :string(255)
+#  level      :integer
+#  travian_id :integer
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  new: MyString
+  wood: 1
+  clay: 1
+  iron: 1
+  crop: 1
+  build_time: 2013-08-13 19:25:57
+
+two:
+  new: MyString
+  wood: 1
+  clay: 1
+  iron: 1
+  crop: 1
+  build_time: 2013-08-13 19:25:57

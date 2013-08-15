@@ -10,6 +10,8 @@ group :development do
 	gem 'annotate'
 end
 
+gem 'nokogiri'
+
 group :development, :test do	
 	gem 'rspec-rails'
 end
@@ -35,7 +37,7 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 
-gem 'watir-webdriver', "~> 0.6.4"
+gem 'watir-webdriver'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.

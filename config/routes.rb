@@ -1,5 +1,15 @@
 TravianBot::Application.routes.draw do
 
+  get "buildings/list"
+  get "buildings/about"
+  get "buildings/build"
+  get "units/list"
+  get "units/about"
+  get "building/list"
+  get "building/about"
+  get "building/build"
+  get "unit/list"
+  get "unit/about"
   resources :units
 
   resources :buildings
